@@ -1,7 +1,9 @@
 # FirstOrderLogicResolutionEngine
 the knowledge bases which you will create to handle each case will contain sentences with the following defined operators:
+
 NOT X ~X
 X OR Y X | Y
+
 You will use first-order logic resolution to solve this problem.
 
 Format for input.txt:
@@ -13,6 +15,8 @@ Format for input.txt:
 <SENTENCE 1>
 ...
 <SENTENCE NS>
+ 
+ 
 where
 • Each query will be a single literal of the form Predicate(Constant) or ~Predicate(Constant).
 • Variables are all single lowercase letters.
@@ -24,6 +28,8 @@ predicate name will not appear with different number of arguments.
 • See the sample input below for spacing patterns.
 • You can assume that the input format is exactly as it is described. There will be no syntax errors in the
 given input.
+
+
 Format for output.txt:
 For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
 <ANSWER 1>
