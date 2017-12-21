@@ -7,14 +7,23 @@ X OR Y X | Y
 You will use first-order logic resolution to solve this problem.
 
 Format for input.txt:
+
  <NQ = NUMBER OF QUERIES>
+ 
 <QUERY 1>
+
 ...
+
 <QUERY NQ>
+ 
 <NS = NUMBER OF GIVEN SENTENCES IN THE KNOWLEDGE BASE>
+
 <SENTENCE 1>
+
 ...
+
 <SENTENCE NS>
+ 
  
  
 where
@@ -32,8 +41,12 @@ given input.
 
 Format for output.txt:
 For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
+
 <ANSWER 1>
+
 ...
+
 <ANSWER NQ>
+ 
 where
 each answer should be either TRUE if you can prove that the corresponding query sentence is true given the knowledge base, or FALSE if you cannot.
